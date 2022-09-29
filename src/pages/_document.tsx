@@ -13,7 +13,7 @@ class Document extends NextDocument {
             rel="stylesheet"
           />
         </Head>
-        <body className="font-sans">
+        <body className="font-inter">
           <Main />
           <NextScript />
         </body>

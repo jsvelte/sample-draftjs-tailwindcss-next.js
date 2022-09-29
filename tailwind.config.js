@@ -2,7 +2,11 @@
 module.exports = {
   content: ['./public/**/*.html', './src/**/*.{js,jsx,ts,tsx,vue}'],
   theme: {
-    extend: {}
+    extend: {
+      fontFamily: {
+        inter: 'Inter, sans-serif'
+      }
+    }
   },
-  plugins: []
+  plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')]
 }
